@@ -1,0 +1,41 @@
+.navbar {
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    top: 0;
+    width: 25%;
+    height: 100%;
+  }
+  #foto{
+      border-radius: 150px;
+      
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+    margin-left: 30%;
+    position: fixed;
+  }
+  #nome{
+      font-size: 50px;
+  }
+  .subt{
+      font-size: 25px;
+  }
